@@ -12,7 +12,7 @@ ravencore.versionGuard = function(version) {
     throw new Error(message);
   }
 };
-ravencore.versionGuard(global._ravencore);
+//ravencore.versionGuard(global._ravencore);
 global._ravencore = ravencore.version;
 
 // crypto
